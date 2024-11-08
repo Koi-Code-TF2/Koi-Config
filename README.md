@@ -12,7 +12,7 @@ _____________
 
 ### Download: https://github.com/Koi-TF2/Koi-Config/archive/refs/heads/Release.zip
 
-#### Current version: 6.6 (Oct 12th, 2024)
+#### Current version: 6.7 (Nov 8th, 2024)
 
 _____________
 
