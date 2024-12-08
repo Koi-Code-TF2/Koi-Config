@@ -52,7 +52,7 @@ _____________
   - Inside `Hudlayout.res`, find `HudDeathNotice` and change: `"TextFont" "surface11"` to `"TextFont" ""`
 - Hide usernames from the killcam:
   - Inside `FreezePanel_Basic.res`, find `FreezeLabelKiller` and change: `"labelText" "%killername%"` to `"labelText" ""`
-  - Also inside `FreezePanel_Basic.res`, find `itempanel` and change: `"xpos" "r200"` and `"ypos" "0"` to `"xpos" "9999"` and `"ypos" "9999"` respectively (this prevents the killcam weapon-display panel from showing up, which also contains "\<playername\> is carrying:")
+  - Also inside `FreezePanel_Basic.res`, find `itempanel` and change: `"xpos" "r200"` and `"ypos" "0"` to `"xpos" "9999"` and `"ypos" "9999"` respectively (this prevents the killcam weapon-display panel from showing up, which also contains "\<playername\> is carrying:". Also prevents malicious weapon names/descriptions from being displayed)
 - Changing these values does not hide player names from the scoreboard (tab), from voicechat, or from friendly medics/friendly players when moused-over
 - It is recommended to use "commstoggle" with this mode, which toggles on/off both text and voice chat when key pressed. Bound to "\\" (backslash key) by default. Or alternatively open console and type "commstoggle"
 
