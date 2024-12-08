@@ -48,8 +48,11 @@ _____________
 _____________
 
 6. Note 1: "Streamer" Mode (Hide usernames) with Broesel Hud:
-- Hide usernames from the killfeed: Inside `Hudlayout.res`, find `HudDeathNotice` and change: `"TextFont" "surface11"` to `"TextFont" ""`
-- Hide usernames from the killcam: Inside `FreezePanel_Basic.res`, find `FreezeLabelKiller` and change: `"labelText" "%killername%"` to `"labelText" ""`
+- Hide usernames from the killfeed:
+  - Inside `Hudlayout.res`, find `HudDeathNotice` and change: `"TextFont" "surface11"` to `"TextFont" ""`
+- Hide usernames from the killcam:
+  - Inside `FreezePanel_Basic.res`, find `FreezeLabelKiller` and change: `"labelText" "%killername%"` to `"labelText" ""`
+  - Also inside `FreezePanel_Basic.res`, find `itempanel` and change: `"xpos" "r200"` and `"ypos" "0"` to `"xpos" "9999"` and `"ypos" "9999"` respectively (this prevents the deathecam weapon-display panel from showing up, which also contains "\<playername\> is carrying:")
 - Changing these values does not hide player names from the scoreboard (tab), from voicechat, or from friendly medics/friendly players when moused-over
 - It is recommended to use "commstoggle" with this mode, which toggles on/off both text and voice chat when key pressed. Bound to "\\" (backslash key) by default. Or alternatively open console and type "commstoggle"
 
