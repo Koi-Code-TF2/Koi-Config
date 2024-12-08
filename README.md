@@ -28,9 +28,9 @@ _____________
    - Paste in the line of launch options seen below into that area, and then click OK
 
   #### Fullscreen @ 1080p 240hz (Recommended for best performance): 
-`-dxlevel 95 -full -w 1920 -h 1080 -freq 240 -novid -nojoy -nosteamcontroller -nohltv -noquicktime -precachefontchars -useforcedmparms -noforcemaccel -noforcemspd`
+`-dxlevel 95 -full -w 1920 -h 1080 -freq 240 -novid -nojoy -nosteamcontroller -nohltv -noquicktime -precachefontchars -useforcedmparms -noforcemaccel -noforcemspd -no_texture_stream`
   #### Windowed Borderless @ 1080p 240hz (Better for multitasking on multiple monitors, better alt+tab): 
-`-dxlevel 95 -sw -w 1920 -h 1080 -noborder -freq 240 -novid -nojoy -nosteamcontroller -nohltv -noquicktime -precachefontchars -useforcedmparms -noforcemaccel -noforcemspd`
+`-dxlevel 95 -sw -w 1920 -h 1080 -noborder -freq 240 -novid -nojoy -nosteamcontroller -nohltv -noquicktime -precachefontchars -useforcedmparms -noforcemaccel -noforcemspd -no_texture_stream`
   
 
 
