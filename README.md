@@ -43,11 +43,7 @@ _____________
 
 _____________
 
-5. Optional: Using the custom sprays found within the "Sprays" zip. These can be installed by placing any of the "vgui" folders (1 for each spray) directly into `Steam\steamapps\common\Team Fortress 2\tf\materials` and **NOT** into the "koi_custom" folder's material section (sprays are not meant to be placed into the custom folder). Please note that within the "sprays.cfg" file in "koi_cfg", the variable cl_logofile "materials/vgui/logos/spray.vtf" has been pre-set. What this means is only 1 spray named "spray.vtf" can be used at a time. Using multiple sprays and changing between them therefore does not work (unless spray file is renamed or config is changed).
-
-_____________
-
-6. Note 1: "Streamer" Mode (Hide usernames) with Broesel Hud:
+5. Optional 1: "Streamer" Mode (Hide usernames) with Broesel Hud:
 - Hide usernames from the killfeed:
   - Inside `Hudlayout.res`, find `HudDeathNotice` and change: `"TextFont" "surface11"` to `"TextFont" ""`
 - Hide usernames from the killcam:
@@ -56,6 +52,10 @@ _____________
 - Changing these values does not hide player names from the scoreboard (tab), from voicechat, or from friendly medics/friendly players when moused-over
 - It is recommended to use "commstoggle" with this mode, which toggles on/off both text and voice chat when key pressed. Bound to "\\" (backslash key) by default. Or alternatively open console and type "commstoggle"
 
-7. Note 2: When viewing other player's demo files (.dem), make sure your "config.cfg" file is set to Read-Only. Doing so will prevent the other player's custom settings seen within the demo file from being placed into your own game files, potentially overwriting config settings. This will not impact viewing your own demos since they only utilize your own settings.
+6. Optional 2: Using the custom sprays found within the "Sprays" zip. These can be installed by placing any of the "vgui" folders (1 for each spray) directly into `Steam\steamapps\common\Team Fortress 2\tf\materials` and **NOT** into the "koi_custom" folder's material section (sprays are not meant to be placed into the custom folder). Please note that within the "sprays.cfg" file in "koi_cfg", the variable cl_logofile "materials/vgui/logos/spray.vtf" has been pre-set. What this means is only 1 spray named "spray.vtf" can be used at a time. Using multiple sprays and changing between them therefore does not work (unless spray file is renamed or config is changed).
 
-8. Note 3: Sometime in 2021 RGL made any "oversized heal particles" illegal. Because of this ban, I have created a custom rule-friendly overheal particle which turns the default stock overheal particles bright green for higher visibility. They are completely stock and not oversized, only the color has been changed for better visibility. This rule-friendly particle file is used by default with this config. Please note that I have still included the previous large overheal particles in this config in a backup folder located here `koi_custom/particles/BACKUP/` in case anyone wants to use them. As a reminder: if you do choose to use the oversized particles in RGL, I am not responsible for issues you may run into with the admins - this is your warning. If RGL decides to allow the large particles again then I will remove this note from this readme and make the large particles default again.
+_____________
+
+7. Note 1: When viewing other player's demo files (.dem), make sure your "config.cfg" file is set to Read-Only. Doing so will prevent the other player's custom settings seen within the demo file from being placed into your own game files, potentially overwriting config settings. This will not impact viewing your own demos since they only utilize your own settings.
+
+8. Note 2: Sometime in 2021 RGL made any "oversized heal particles" illegal. Because of this ban, I have created a custom rule-friendly overheal particle which turns the default stock overheal particles bright green for higher visibility. They are completely stock and not oversized, only the color has been changed for better visibility. This rule-friendly particle file is used by default with this config. Please note that I have still included the previous large overheal particles in this config in a backup folder located here `koi_custom/particles/BACKUP/` in case anyone wants to use them. As a reminder: if you do choose to use the oversized particles in RGL, I am not responsible for issues you may run into with the admins - this is your warning. If RGL decides to allow the large particles again then I will remove this note from this readme and make the large particles default again.
