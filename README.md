@@ -45,7 +45,7 @@ _____________
 
 _____________
 
-5. Optional 1: "Streamer" Mode (Hide usernames) with Broesel Hud:
+5. Optional 1: "Streamer" Mode (Hide usernames) **with Broesel Hud**:
 - Hide usernames from the killfeed:
   - Inside `scripts\Hudlayout.res`, find `HudDeathNotice` and change: `"TextFont" "surface11"` to `"TextFont" "redacted8"`. Note that this does not hide weird characters or symbols from player names. If you want to completely remove names fully, use `"TextFont" ""` instead
 - Hide usernames from the killcam:
