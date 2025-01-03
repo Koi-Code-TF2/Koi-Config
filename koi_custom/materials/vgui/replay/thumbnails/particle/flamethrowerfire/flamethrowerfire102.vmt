@@ -1,0 +1,20 @@
+"Spritecard"
+{
+	"srgb?$overbrightfactor" "5"
+	"$basetexture" "vgui\replay\thumbnails\particle\flamethrowerfire\flamethrowerfire102"
+	"$translucent" "1"
+//	"$overbrightfactor" "31"
+	"$addself" "0.5"
+	"$blendframes" 1
+	"$depthblend" 1
+	"$additive" 0
+	"$DEPTHBLENDSCALE" "100"
+	"$startfadesize" ".3"
+	"$endfadesize" ".5"
+	"$maxsize" ".4"
+	
+	<dx90
+	{   
+		$maxsize ".15"
+	}
+}
